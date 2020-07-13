@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route("/")
 def show_details() :
     global startTime
-    delay = 9999999 ** 99999
+    #delay = 9999999 ** 99999
     return "<html>" + \
            "<head><title>Docker + Flask Demo</title></head>" + \
            "<body style='background-color:cyan'>" + \

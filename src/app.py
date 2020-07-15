@@ -17,7 +17,7 @@ def show_details() :
     #delay = 9999999 ** 99999
     return "<html>" + \
            "<head><title>Docker + Flask Demo</title></head>" + \
-           "<body style='background-color:cyan'>" + \
+           "<body style='background-color:green'>" + \
            "<table>" + \
            "<tr><td> Start Time </td> <td>" +  startTime + "</td> </tr>" \
            "<tr><td> HostName/ContainerName </td> <td>" + utils.gethostname() + "</td> </tr>" \
